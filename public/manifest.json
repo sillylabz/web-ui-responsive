@@ -1,0 +1,6 @@
+{
+  "short_name": "Tek Universe",
+  "name": "Tek Universe Web UI",
+  "start_url": ".",
+  "display": "standalone"
+}

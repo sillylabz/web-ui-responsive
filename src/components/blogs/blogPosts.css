@@ -1,0 +1,46 @@
+/* components/blogs/blogPosts.css */
+
+/* slick slide CSS */
+.slick-slide {
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.slick-prev,
+.slick-next {
+	z-index: 1;
+	top: 50%;
+	width: auto;
+	height: auto;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	border: none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.slick-prev {
+	left: 10px;
+}
+
+.slick-next {
+	right: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	font-size: 30px;
+	color: black;
+	opacity: 0.75;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 7%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
